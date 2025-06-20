@@ -18,23 +18,6 @@ export function HeroSection() {
           </span>
         </Button>
       </div>
-
-      {/* Decorative elements */}
-      <div className="absolute top-4 right-8 w-32 h-32 opacity-20">
-        <svg viewBox="0 0 100 100" className="w-full h-full">
-          <path
-            d="M20,20 L80,20 L80,80 L20,80 Z"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="2"
-          />
-          <path
-            d="M30,40 L70,40 M30,50 L70,50 M30,60 L70,60"
-            stroke="currentColor"
-            strokeWidth="1"
-          />
-        </svg>
-      </div>
     </div>
   );
 }
