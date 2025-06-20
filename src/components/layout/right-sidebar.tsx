@@ -35,15 +35,6 @@ export function RightSidebar() {
         </CardHeader>
         <CardContent className="border-green-600">
           <div className="grid place-items-center gap-3 mb-3">
-            {/* <div className="relative">
-              <Avatar className="w-20 h-20">
-                <AvatarImage src="/placeholder.svg?height=48&width=48" />
-                <AvatarFallback>JR</AvatarFallback>
-              </Avatar>
-              <div className="absolute -top-1 -right-1 w-6 h-6 bg-blue-600 rounded-full flex items-center justify-center">
-                <span className="text-white text-xs">👋</span>
-              </div>
-            </div> */}
             <AvatarWithProgress progress={32} fallback="RB" />
             <div className="text-center">
               <p className="font-semibold">Good Morning Jason 🔥</p>
